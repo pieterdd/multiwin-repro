@@ -33,7 +33,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "com.multiwinrepro",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
@@ -59,11 +59,22 @@
     },
     "windows": [
       {
+        "label": "windowA",
         "fullscreen": false,
         "height": 600,
         "resizable": true,
-        "title": "multiwin-repro",
-        "width": 800
+        "title": "Window A",
+        "width": 800,
+        "url": "index.html"
+      },
+      {
+        "label": "windowB",
+        "fullscreen": false,
+        "height": 400,
+        "resizable": true,
+        "title": "Window B",
+        "width": 300,
+        "url": "b.html"
       }
     ]
   }
